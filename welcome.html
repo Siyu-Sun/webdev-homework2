@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Biography Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class = "parallax">
+        <div class = "heading">
+            <h1>This is Siyu Sun</h1>
+        </div>
+
+        <img src="avacado.jpg" alt="Photo">
+
+        <div class="bio">
+            <h3>Contact Info</h3>
+            <p>email: sun.siyu1@northeastern.edu</p>
+            <p>phone: 9495723106</p>
+        </div>
+
+        <div class="bio">
+            <h3>Courses taken this semester</h3>
+            <button id = "navigate" class = "button-class">Go to Courses Page</button>
+        </div>
+
+        <script>
+            document.getElementById("navigate").addEventListener("click", () => {
+            window.location.href = "courses.html";
+            });
+        </script>
+
+        <div class="bio">
+            <h3>Fun fact</h3>
+            <p>A Fun fact about me is that I enjoy playing badminton.</p>
+        </div>
+    </div>
+
+  </body>
+</html>

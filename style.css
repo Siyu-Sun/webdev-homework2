@@ -1,0 +1,63 @@
+body {
+    color: darkgreen;
+    text-align: center;
+  }
+  
+.heading {
+    margin-top: 5%;
+    color: green;
+  }
+
+.bio {
+    text-align: center;
+    border: 3px solid green;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.button-class {
+    background-color: #569c58; 
+    color: white; 
+    padding: 12px 25px; 
+    border: none; 
+    border-radius: 20px;
+    margin-bottom: 10%;
+    margin-top: 3%;
+  }
+
+img{
+    width:20%;
+    height:auto;
+    border-radius: 10%;
+    margin: auto;
+  }
+
+
+
+
+
+@media (max-width: 400px) {
+    body {
+      font-size: 10px;
+    } 
+    
+    .button-class {
+        padding: 10px 20px; 
+        font-size: 10px;
+      }
+    
+  }
+
+@media (min-width: 800px) {
+    body {
+      font-size: 25px;
+    } 
+    .button-class {
+        padding: 25px 40px;
+        font-size: 25px;
+      }
+    
+  }
+  
